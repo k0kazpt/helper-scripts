@@ -1,0 +1,6 @@
+#!/usr/bin/zsh
+
+declare -A winjmpbox=()
+winjmpbox[WE]="10.60.153.142"
+winjmpbox[WECDE]="10.60.153.50"
+winjmpbox[CNCDE]="10.75.153.14"
