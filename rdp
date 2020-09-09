@@ -1,7 +1,0 @@
-#!/usr/bin/zsh
-
-rdpfile="/c/Users/OscarPatricio/Documents/__GITHUB__/helper-scripts/.WinJMP"
-
-source $rdpfile
-
-mstsc.exe /v:${winjmpbox[$1]}
