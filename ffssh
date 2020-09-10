@@ -1,0 +1,12 @@
+#!/usr/bin/zsh
+
+sshfile="/c/Users/OscarPatricio/Documents/__GITHUB__/helper-scripts/.LinJMP"
+
+source $sshfile
+
+if [ $2 ]
+then
+  ssh -t $sshuser@${linjmpbox[$1]} "ssh -o ServerAliveInterval=60 $2"
+else
+  ssh -t $sshuser@${linjmpbox[$1]}
+fi

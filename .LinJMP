@@ -1,0 +1,11 @@
+#!/usr/bin/zsh
+
+declare -A linjmpbox=()
+linjmpbox[WE]="10.60.21.5"
+linjmpbox[WECDE]="10.60.230.4"
+linjmpbox[NE]="10.65.21.4"
+linjmpbox[NECDE]="10.65.230.4"
+linjmpbox[CN]="10.75.21.7"
+linjmpbox[CNCDE]="10.75.100.7"
+
+sshuser="ext.oscar.patricio"
