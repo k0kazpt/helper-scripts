@@ -1,6 +1,7 @@
 #!/usr/bin/zsh
 
-sshfile="/c/Users/OscarPatricio/Documents/__GITHUB__/helper-scripts/.LinJMP"
+SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+sshfile="$SCRIPTPATH/.LinJMP"
 
 source $sshfile
 
